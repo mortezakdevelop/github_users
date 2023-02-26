@@ -30,7 +30,7 @@ class SplashFragment : Fragment() {
 
     private fun showSplash(){
         lifecycleScope.launchWhenStarted {
-            delay(2000)
+            delay(2500)
             findNavController().navigate(R.id.action_splashFragment_to_mainFragment)
         }
     }
